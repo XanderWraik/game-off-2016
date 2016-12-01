@@ -13,6 +13,6 @@ This is only the start fo BattleSim.
 Stay tuned for more!!
 
 Link to the simulation: 
-https://goo.gl/NN08Ur
+https://goo.gl/kDEsGX
 
 GitHub Game Off 2016 Theme is Hacking, Modding, or Augmenting
