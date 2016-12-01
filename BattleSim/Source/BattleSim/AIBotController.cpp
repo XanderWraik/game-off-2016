@@ -53,6 +53,10 @@ void AAIBotController::OnPawnCaught(TArray<AActor*> DetectedBots)
 	for (AActor* DetectedActor : DetectedBots)
 	{
 		AAICharacter* Detected_AI_Char = Cast<AAICharacter>(DetectedActor);
+		if (Detected_AI_Char == nullptr || Detected_AI_Char->IsA(AAICharacter::StaticClass()) == false)
+		{
+			continue;
+		}
 		if (Detected_AI_Char->GetTeamName() != Cast<AAICharacter>(this->GetControlledPawn())->GetTeamName() &&
 			Detected_AI_Char->GetHealth() >= 0)
 		{
