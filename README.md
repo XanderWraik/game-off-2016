@@ -12,7 +12,4 @@ Download the files and generate the project files using Visual Studio 2015 Commu
 This is only the start fo BattleSim. 
 Stay tuned for more!!
 
-Link to the simulation: 
-https://goo.gl/kDEsGX
-
 GitHub Game Off 2016 Theme is Hacking, Modding, or Augmenting
